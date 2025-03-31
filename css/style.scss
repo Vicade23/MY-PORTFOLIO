@@ -1,7 +1,7 @@
 * {
     padding: 0;
     margin: 0;
-    transition: .3s ease;
+    transition: .2s ease;
     ::-webkit-scrollbar {
         width: 8px;
     }
@@ -126,6 +126,18 @@ header {
                                 color: #273b70;
                                 list-style: none;
                                 background-color: #f2f4f7;
+                                span {
+                                    height: 25px;
+                                    aspect-ratio: 1/1;
+                                    border: 1.8px solid;
+                                    border-color: #4d5d78;
+                                    font-size: 14px;
+                                    text-align: center;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    font-weight: 600 !important;
+                                }
                             }
                         }
                         .texts-container {
@@ -145,6 +157,7 @@ header {
 
                 &:hover {
                     background-color: #f8f8f8;
+                    cursor: default;
                 }
             }
             
@@ -192,6 +205,18 @@ header {
                             color: #273b70;
                             list-style: none;
                             background-color: #f2f4f7;
+                            span {
+                                height: 25px;
+                                aspect-ratio: 1/1;
+                                border: 1.8px solid;
+                                border-color: #4d5d78;
+                                font-size: 14px;
+                                text-align: center;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                font-weight: 600 !important;
+                            }
                         }
                     }
                     .texts-container {
@@ -211,6 +236,7 @@ header {
 
             &:hover {
                 background-color: #f8f8f8;
+                cursor: default;
             }
         }
     }
@@ -471,6 +497,7 @@ header {
             }
             .card-body {
                 .lg-number {
+                    font-size: 20px;
                     font-weight: bolder;
                 }
                 .card-sm-texts {
@@ -819,9 +846,29 @@ header {
     }
 }
 
+.socials {
+    margin: 60px 0;
+    .row {
+        .col-6 {
+            margin-bottom: 30px;
+            a {
+                border: .1rem solid #dee2e6;
+                padding: 20px 0;
+                button {
+                    font-size: 16px;
+                    font-weight: 600 !important;
+                    letter-spacing: 1px;
+                    span {
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+
 
 .footer {
-    margin-top: 120px;
     .second-row {
         padding: 0 15px 21px;
     }
