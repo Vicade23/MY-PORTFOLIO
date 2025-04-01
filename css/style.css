@@ -548,22 +548,6 @@ header ul .dropdown-toggle {
   width: 100%;
 }
 
-.premium .row .card .card-header .bi-person-fill {
-  background-color: #000000;
-}
-
-.premium .row .card .card-header .bi-star-fill {
-  background-color: #000000;
-}
-
-.premium .row .card .card-header .bi-crosshair2 {
-  background-color: #000000;
-}
-
-.premium .row .card .card-header .bi-mortarboard-fill {
-  background-color: #000000;
-}
-
 .premium .row .card .card-body .lg-number {
   font-size: 20px;
   font-weight: bolder;
@@ -583,6 +567,25 @@ header ul .dropdown-toggle {
 
 .socials {
   margin: 60px 0;
+}
+
+.socials .row .h2 {
+  margin-bottom: 30px;
+  font-size: 32px;
+  font-weight: bolder;
+  color: #414346;
+}
+
+@media (max-width: 767px) {
+  .socials .row .h2 {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 400px) {
+  .socials .row .h2 {
+    font-size: 20px;
+  }
 }
 
 .socials .row .col-6 {

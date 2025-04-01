@@ -486,21 +486,6 @@ header {
                         width: 100%;
                     }
                 }
-                .bi-person-fill {
-                    background-color: #000000;
-                }
-                
-                .bi-star-fill {
-                    background-color: #000000;
-                }
-                
-                .bi-crosshair2 {
-                    background-color: #000000;
-                }
-                
-                .bi-mortarboard-fill {
-                    background-color: #000000;
-                }
             }
             .card-body {
                 .lg-number {
@@ -522,6 +507,18 @@ header {
 .socials {
     margin: 60px 0;
     .row {
+        .h2 {
+            margin-bottom: 30px;
+            font-size: 32px;
+            font-weight: bolder;
+            color: #414346;
+            @media (max-width: 767px) {
+                font-size: 24px;
+            }
+            @media (max-width: 400px) {
+                font-size: 20px;
+            }
+        }
         .col-6 {
             margin-bottom: 30px;
             a {
