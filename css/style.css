@@ -302,7 +302,9 @@ header ul .dropdown-toggle {
 
 .hero {
   background-color: #1f305d;
+  background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%239C92AC' fill-opacity='0.4' fill-rule='evenodd'%3E%3Cpath d='M0 40L40 0H20L0 20M40 40V20L20 40'/%3E%3C/g%3E%3C/svg%3E");
   position: relative;
+  background-position: center;
   height: 95vh;
 }
 
@@ -313,7 +315,7 @@ header ul .dropdown-toggle {
 }
 
 .hero .img-container {
-  background-image: url(https://www.lifecarduniversity.com/images/Frame-82.svg);
+  background-color: rgba(37, 58, 114, 0.774);
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -406,7 +408,7 @@ header ul .dropdown-toggle {
 }
 
 .hero .hero-text-container .hero-btn-links .btn-outline:hover {
-  background-color: #f2f1f1;
+  background-color: rgba(163, 163, 163, 0.27);
 }
 
 @media (max-width: 1200px) {
@@ -531,9 +533,9 @@ header ul .dropdown-toggle {
 
 .premium .row .card .card-header li {
   aspect-ratio: 1/1;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   font-size: 20px;
-  padding: 22px;
   list-style: none;
   text-align: center;
   display: flex;
@@ -542,20 +544,24 @@ header ul .dropdown-toggle {
   color: #ffffff;
 }
 
+.premium .row .card .card-header li img {
+  width: 100%;
+}
+
 .premium .row .card .card-header .bi-person-fill {
-  background-color: #5dc983;
+  background-color: #000000;
 }
 
 .premium .row .card .card-header .bi-star-fill {
-  background-color: #ffbd67;
+  background-color: #000000;
 }
 
 .premium .row .card .card-header .bi-crosshair2 {
-  background-color: #719dd3;
+  background-color: #000000;
 }
 
 .premium .row .card .card-header .bi-mortarboard-fill {
-  background-color: #eb5757;
+  background-color: #000000;
 }
 
 .premium .row .card .card-body .lg-number {
@@ -563,415 +569,16 @@ header ul .dropdown-toggle {
   font-weight: bolder;
 }
 
+@media (max-width: 400px) {
+  .premium .row .card .card-body .lg-number {
+    font-size: 16px;
+  }
+}
+
 .premium .row .card .card-body .card-sm-texts {
   color: #8592ad;
   font-weight: 400;
   font-size: 16px;
-}
-
-.learn-and-build {
-  margin-top: 80px;
-}
-
-.learn-and-build .header-1 {
-  color: #242424;
-  font-size: 60px;
-  line-height: 1.2;
-  letter-spacing: -.02em;
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-right: 10px;
-  font-weight: bold;
-}
-
-@media (max-width: 991px) {
-  .learn-and-build .header-1 {
-    font-size: 45px;
-  }
-}
-
-@media (max-width: 767px) {
-  .learn-and-build .header-1 {
-    color: #000;
-    font-size: 35px;
-    line-height: 1.1;
-  }
-}
-
-.learn-and-build .header-2 {
-  color: #4d85c8;
-  font-size: 60px;
-  font-weight: bold;
-  justify-content: center;
-}
-
-@media (max-width: 767px) {
-  .learn-and-build .header-2 {
-    font-size: 35px;
-    line-height: 1.2;
-  }
-}
-
-.learn-and-build .header-2 .img-container {
-  width: 60px;
-  margin-left: 10px;
-}
-
-.learn-and-build .container .inner-col-12 {
-  width: 100%;
-  background-color: #bfd6fa;
-  background-image: url(https://www.lifecarduniversity.com/images/6563c15e45db91a91be06068_fature-one-image.svg.png), linear-gradient(315deg, #bfd6fa, #e8f0fc 78%);
-  background-position: 101% 101%, 0 0;
-  background-repeat: no-repeat, repeat;
-  background-size: 560px, auto;
-  border: 1px solid #fff;
-  border-radius: 20px;
-  flex-flow: column;
-  align-content: stretch;
-  padding-bottom: 0%;
-  padding-left: 60px;
-  padding-right: 40px;
-  display: flex;
-  height: 610px;
-}
-
-@media (max-width: 991px) {
-  .learn-and-build .container .inner-col-12 {
-    height: 850px;
-  }
-}
-
-@media (max-width: 767px) {
-  .learn-and-build .container .inner-col-12 {
-    padding-left: 30px;
-    height: 770px;
-  }
-}
-
-.learn-and-build .container .inner-col-12 .sm-header {
-  color: #8617cf;
-  letter-spacing: .1em;
-  text-transform: uppercase;
-  font-size: 13px;
-  font-weight: 400 !important;
-  line-height: 24px;
-}
-
-@media (max-width: 575px) {
-  .learn-and-build .container .inner-col-12 .sm-header {
-    font-size: 10px;
-    letter-spacing: .1rem;
-  }
-}
-
-.learn-and-build .container .inner-col-12 .lg-header {
-  color: #000;
-  letter-spacing: -.04em;
-  margin-top: 10px;
-  margin-bottom: 20px;
-  font-size: 50px;
-  line-height: 1.1;
-  font-weight: bold;
-}
-
-@media (max-width: 767px) {
-  .learn-and-build .container .inner-col-12 .lg-header {
-    font-size: 40px;
-    margin-bottom: 10px;
-  }
-}
-
-@media (max-width: 575px) {
-  .learn-and-build .container .inner-col-12 .lg-header {
-    font-size: 31px;
-  }
-}
-
-.learn-and-build .container .inner-col-12 .lg-texts {
-  color: #413f3f;
-  letter-spacing: -.02em;
-  margin-bottom: 10px;
-  font-size: 18px;
-  font-weight: 400 !important;
-  line-height: 32px;
-}
-
-@media (max-width: 767px) {
-  .learn-and-build .container .inner-col-12 .lg-texts {
-    font-size: 18px;
-    line-height: 25px;
-  }
-}
-
-@media (max-width: 575px) {
-  .learn-and-build .container .inner-col-12 .lg-texts {
-    margin-bottom: 30px;
-    font-size: 16px;
-    line-height: 25px;
-  }
-}
-
-.learn-and-build .container .inner-col-12 .lg-get-started {
-  margin-right: 8px;
-  margin-top: 60px;
-  font-size: 17px;
-  line-height: 24px;
-}
-
-@media (max-width: 767px) {
-  .learn-and-build .container .inner-col-12 .lg-get-started {
-    margin-top: 40px;
-  }
-}
-
-@media (max-width: 575px) {
-  .learn-and-build .container .inner-col-12 .lg-get-started {
-    font-size: 15px;
-  }
-}
-
-.learn-and-build .container .inner-col-12 .lg-get-started a {
-  color: #2467e3;
-  font-weight: 400;
-}
-
-.learn-and-build .container .inner-col-lg-7 {
-  padding-top: 60px;
-  width: 100%;
-  height: 610px;
-  background-color: #ede1fb;
-  background-image: linear-gradient(rgba(243, 206, 248, 0.3), rgba(255, 255, 255, 0)), url(https://www.lifecarduniversity.com/images/Group-1000004183.png);
-  background-position: 0 0, 40% -50%, 70% 410%;
-  background-repeat: repeat, no-repeat, no-repeat;
-  background-size: auto, cover, 700px;
-  border-radius: 20px;
-  padding-bottom: 215px;
-  padding-left: 50px;
-  padding-right: 50px;
-}
-
-@media (max-width: 991px) {
-  .learn-and-build .container .inner-col-lg-7 {
-    height: 850px;
-  }
-}
-
-@media (max-width: 767px) {
-  .learn-and-build .container .inner-col-lg-7 {
-    padding-left: 30px;
-    height: 770px;
-  }
-}
-
-.learn-and-build .container .inner-col-lg-7 .sm-header {
-  color: #8617cf;
-  letter-spacing: .1em;
-  text-transform: uppercase;
-  font-size: 13px;
-  font-weight: 400 !important;
-  line-height: 24px;
-}
-
-@media (max-width: 575px) {
-  .learn-and-build .container .inner-col-lg-7 .sm-header {
-    font-size: 10px;
-    letter-spacing: .1rem;
-  }
-}
-
-.learn-and-build .container .inner-col-lg-7 .lg-header {
-  color: #000;
-  letter-spacing: -.04em;
-  margin-top: 10px;
-  margin-bottom: 20px;
-  font-size: 50px;
-  line-height: 1.1;
-  font-weight: bold;
-}
-
-@media (max-width: 767px) {
-  .learn-and-build .container .inner-col-lg-7 .lg-header {
-    font-size: 40px;
-    margin-bottom: 10px;
-  }
-}
-
-@media (max-width: 575px) {
-  .learn-and-build .container .inner-col-lg-7 .lg-header {
-    font-size: 31px;
-  }
-}
-
-.learn-and-build .container .inner-col-lg-7 .lg-texts {
-  color: #413f3f;
-  letter-spacing: -.02em;
-  margin-bottom: 10px;
-  font-size: 18px;
-  font-weight: 400 !important;
-  line-height: 32px;
-}
-
-@media (max-width: 767px) {
-  .learn-and-build .container .inner-col-lg-7 .lg-texts {
-    font-size: 18px;
-    line-height: 25px;
-  }
-}
-
-@media (max-width: 575px) {
-  .learn-and-build .container .inner-col-lg-7 .lg-texts {
-    margin-bottom: 30px;
-    font-size: 16px;
-    line-height: 25px;
-  }
-}
-
-.learn-and-build .container .inner-col-lg-7 .lg-get-started {
-  margin-right: 8px;
-  margin-top: 60px;
-  font-size: 17px;
-  line-height: 24px;
-}
-
-@media (max-width: 767px) {
-  .learn-and-build .container .inner-col-lg-7 .lg-get-started {
-    margin-top: 40px;
-  }
-}
-
-@media (max-width: 575px) {
-  .learn-and-build .container .inner-col-lg-7 .lg-get-started {
-    font-size: 15px;
-  }
-}
-
-.learn-and-build .container .inner-col-lg-7 .lg-get-started a {
-  color: #2467e3;
-  font-weight: 400;
-}
-
-.learn-and-build .container .col-lg-5 img {
-  border-radius: 20px;
-  max-height: 610px;
-}
-
-.learn-and-build .container .inner-col-12-sm {
-  width: 100%;
-  height: 610px;
-  background-color: #f0f8e5;
-  border-radius: 20px;
-  padding-top: 60px;
-  padding-left: 50px;
-  padding-right: 50px;
-  position: relative;
-}
-
-.learn-and-build .container .inner-col-12-sm .img-cont {
-  width: 350px;
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  justify-content: center;
-}
-
-@media (max-width: 991px) {
-  .learn-and-build .container .inner-col-12-sm {
-    height: 850px;
-  }
-}
-
-@media (max-width: 767px) {
-  .learn-and-build .container .inner-col-12-sm {
-    padding-left: 30px;
-    height: 770px;
-  }
-}
-
-.learn-and-build .container .inner-col-12-sm .sm-header {
-  color: #8617cf;
-  letter-spacing: .1em;
-  text-transform: uppercase;
-  font-size: 13px;
-  font-weight: 400 !important;
-  line-height: 24px;
-}
-
-@media (max-width: 575px) {
-  .learn-and-build .container .inner-col-12-sm .sm-header {
-    font-size: 10px;
-    letter-spacing: .1rem;
-  }
-}
-
-.learn-and-build .container .inner-col-12-sm .lg-header {
-  color: #000;
-  letter-spacing: -.04em;
-  margin-top: 10px;
-  margin-bottom: 20px;
-  font-size: 50px;
-  line-height: 1.1;
-  font-weight: bold;
-}
-
-@media (max-width: 767px) {
-  .learn-and-build .container .inner-col-12-sm .lg-header {
-    font-size: 40px;
-    margin-bottom: 10px;
-  }
-}
-
-@media (max-width: 575px) {
-  .learn-and-build .container .inner-col-12-sm .lg-header {
-    font-size: 31px;
-  }
-}
-
-.learn-and-build .container .inner-col-12-sm .lg-texts {
-  color: #413f3f;
-  letter-spacing: -.02em;
-  margin-bottom: 10px;
-  font-size: 18px;
-  font-weight: 400 !important;
-  line-height: 32px;
-}
-
-@media (max-width: 767px) {
-  .learn-and-build .container .inner-col-12-sm .lg-texts {
-    font-size: 18px;
-    line-height: 25px;
-  }
-}
-
-@media (max-width: 575px) {
-  .learn-and-build .container .inner-col-12-sm .lg-texts {
-    margin-bottom: 30px;
-    font-size: 16px;
-    line-height: 25px;
-  }
-}
-
-.learn-and-build .container .inner-col-12-sm .lg-get-started {
-  margin-right: 8px;
-  margin-top: 60px;
-  font-size: 17px;
-  line-height: 24px;
-}
-
-@media (max-width: 767px) {
-  .learn-and-build .container .inner-col-12-sm .lg-get-started {
-    margin-top: 40px;
-  }
-}
-
-@media (max-width: 575px) {
-  .learn-and-build .container .inner-col-12-sm .lg-get-started {
-    font-size: 15px;
-  }
-}
-
-.learn-and-build .container .inner-col-12-sm .lg-get-started a {
-  color: #2467e3;
-  font-weight: 400;
 }
 
 .socials {
@@ -985,6 +592,7 @@ header ul .dropdown-toggle {
 .socials .row .col-6 a {
   border: .1rem solid #dee2e6;
   padding: 20px 0;
+  text-decoration: none;
 }
 
 .socials .row .col-6 a button {
@@ -993,8 +601,20 @@ header ul .dropdown-toggle {
   letter-spacing: 1px;
 }
 
+@media (max-width: 400px) {
+  .socials .row .col-6 a button {
+    font-size: 14px;
+  }
+}
+
 .socials .row .col-6 a button span {
   font-size: 20px;
+}
+
+@media (max-width: 400px) {
+  .socials .row .col-6 a button span {
+    font-size: 16px;
+  }
 }
 
 .footer .second-row {
@@ -1002,6 +622,28 @@ header ul .dropdown-toggle {
 }
 
 .footer .copyright-and-powered-container {
+  display: flex;
   padding: 20px 0;
   font-size: 13px;
+}
+
+@media (max-width: 400px) {
+  .footer .copyright-and-powered-container {
+    display: block;
+  }
+}
+
+.footer .copyright-and-powered-container .powered-by {
+  display: flex;
+  align-items: center;
+}
+
+.footer .copyright-and-powered-container .powered-by img {
+  width: 30px;
+}
+
+@media (max-width: 400px) {
+  .footer .copyright-and-powered-container .powered-by {
+    margin-top: 10px;
+  }
 }

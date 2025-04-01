@@ -290,7 +290,9 @@ header {
 
 .hero {
     background-color: #1f305d;
+    background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%239C92AC' fill-opacity='0.4' fill-rule='evenodd'%3E%3Cpath d='M0 40L40 0H20L0 20M40 40V20L20 40'/%3E%3C/g%3E%3C/svg%3E");
     position: relative;
+    background-position: center;
     height: 95vh;
 
     @media (max-width: 767px) {
@@ -298,7 +300,8 @@ header {
     }
 
     .img-container {
-        background-image: url(https://www.lifecarduniversity.com/images/Frame-82.svg);
+        background-color: rgba(37, 58, 114, 0.774);
+        // background-image: url(https://www.lifecarduniversity.com/images/Frame-82.svg);
         width: 100%;
         height: 100%;
         object-fit: cover;
@@ -372,7 +375,7 @@ header {
                 font-size: 1.1rem;
 
                 &:hover {
-                    background-color: #f2f1f1;
+                    background-color: rgba(163, 163, 163, 0.27);
                 }
 
                 @media (max-width: 1200px) {
@@ -469,377 +472,47 @@ header {
                 display: flex;
                 li {
                     aspect-ratio: 1/1;
-                    height: 40px;
+                    width: 50px;
+                    height: 50px;
                     font-size: 20px;
-                    padding: 22px;
+                    // padding: 22px;
                     list-style: none;
                     text-align: center;
                     display: flex;
                     align-items: center;
                     justify-content: center;
                     color: #ffffff;
+                    img {
+                        width: 100%;
+                    }
                 }
                 .bi-person-fill {
-                    background-color: #5dc983;
+                    background-color: #000000;
                 }
                 
                 .bi-star-fill {
-                    background-color: #ffbd67;
+                    background-color: #000000;
                 }
                 
                 .bi-crosshair2 {
-                    background-color: #719dd3;
+                    background-color: #000000;
                 }
                 
                 .bi-mortarboard-fill {
-                    background-color: #eb5757;
+                    background-color: #000000;
                 }
             }
             .card-body {
                 .lg-number {
                     font-size: 20px;
                     font-weight: bolder;
+                    @media (max-width: 400px) {
+                        font-size: 16px;
+                    }
                 }
                 .card-sm-texts {
                     color: #8592ad;
                     font-weight: 400;font-size: 16px;
-                }
-            }
-        }
-    }
-}
-
-.learn-and-build {
-    margin-top: 80px;
-    .header-1 {
-        color: #242424;
-        font-size: 60px;
-        line-height: 1.2;
-        letter-spacing: -.02em;
-        margin-top: 0;
-        margin-bottom: 0;
-        margin-right: 10px;
-        font-weight: bold;
-
-        @media (max-width: 991px) {
-            font-size: 45px;
-        }
-        
-        @media (max-width: 767px) {
-            color: #000;
-            font-size: 35px;
-            line-height: 1.1;
-        }
-    }
-    .header-2 {
-        color: #4d85c8;
-        font-size: 60px;
-        font-weight: bold;
-        justify-content: center;
-
-        @media (max-width: 767px) {
-            font-size: 35px;
-            line-height: 1.2;
-        }
-
-        .img-container {
-            width: 60px;
-            margin-left: 10px;
-        }
-    }
-
-    .container {
-        .inner-col-12 {
-            width: 100%;
-            background-color: #bfd6fa;
-            background-image: url(https://www.lifecarduniversity.com/images/6563c15e45db91a91be06068_fature-one-image.svg.png), linear-gradient(315deg, #bfd6fa, #e8f0fc 78%);
-            background-position: 101% 101%, 0 0;
-            background-repeat: no-repeat, repeat;
-            background-size: 560px, auto;
-            border: 1px solid #fff;
-            border-radius: 20px;
-            flex-flow: column;
-            align-content: stretch;
-            // justify-content: center;
-            padding-bottom: 0%;
-            padding-left: 60px;
-            padding-right: 40px;
-            display: flex;
-            height: 610px;
-
-            @media (max-width: 991px) {
-                height: 850px;
-            }
-            @media (max-width: 767px) {
-                padding-left: 30px;
-                height: 770px;
-            }
-            
-
-            .sm-header {
-                color: #8617cf;
-                letter-spacing: .1em;
-                text-transform: uppercase;
-                font-size: 13px;
-                font-weight: 400 !important;
-                line-height: 24px;
-                
-                @media (max-width: 575px) {
-                    font-size: 10px;
-                    letter-spacing: .1rem;
-                }
-            }
-            
-            .lg-header {
-                color: #000;
-                letter-spacing: -.04em;
-                margin-top: 10px;
-                margin-bottom: 20px;
-                font-size: 50px;
-                line-height: 1.1;
-                font-weight: bold;
-                
-                @media (max-width: 767px) {
-                    font-size: 40px;
-                    margin-bottom: 10px;
-                }
-                @media (max-width: 575px) {
-                    font-size: 31px;
-                }
-            }
-
-            .lg-texts {
-                color: #413f3f;
-                letter-spacing: -.02em;
-                margin-bottom: 10px;
-                font-size: 18px;
-                font-weight: 400 !important;
-                line-height: 32px;
-                
-                @media (max-width: 767px) {
-                    font-size: 18px;
-                    line-height: 25px;
-                }
-                @media (max-width: 575px) {
-                    margin-bottom: 30px;
-                    font-size: 16px;
-                    line-height: 25px;
-                }
-            }
-
-            .lg-get-started {
-                margin-right: 8px;
-                margin-top: 60px;
-                font-size: 17px;
-                line-height: 24px;
-                
-                @media (max-width: 767px) {
-                    margin-top: 40px;
-                }
-                @media (max-width: 575px) {
-                    font-size: 15px;
-                }
-
-                a {
-                    color: #2467e3;
-                    font-weight: 400;
-                }
-            }
-        }
-        .inner-col-lg-7 {
-            padding-top: 60px;
-            width: 100%;
-            height: 610px;
-            background-color: #ede1fb;
-            background-image: linear-gradient(rgba(243, 206, 248, .3), rgba(255, 255, 255, 0)), url(https://www.lifecarduniversity.com/images/Group-1000004183.png);
-            background-position: 0 0, 40% -50%, 70% 410%;
-            background-repeat: repeat, no-repeat, no-repeat;
-            background-size: auto, cover, 700px;
-            border-radius: 20px;
-            padding-bottom: 215px;
-            padding-left: 50px;
-            padding-right: 50px;
-            
-            @media (max-width: 991px) {
-                height: 850px;
-            }
-            @media (max-width: 767px) {
-                padding-left: 30px;
-                height: 770px;
-            }
-            
-
-            .sm-header {
-                color: #8617cf;
-                letter-spacing: .1em;
-                text-transform: uppercase;
-                font-size: 13px;
-                font-weight: 400 !important;
-                line-height: 24px;
-                
-                @media (max-width: 575px) {
-                    font-size: 10px;
-                    letter-spacing: .1rem;
-                }
-            }
-            
-            .lg-header {
-                color: #000;
-                letter-spacing: -.04em;
-                margin-top: 10px;
-                margin-bottom: 20px;
-                font-size: 50px;
-                line-height: 1.1;
-                font-weight: bold;
-                
-                @media (max-width: 767px) {
-                    font-size: 40px;
-                    margin-bottom: 10px;
-                }
-                @media (max-width: 575px) {
-                    font-size: 31px;
-                }
-            }
-
-            .lg-texts {
-                color: #413f3f;
-                letter-spacing: -.02em;
-                margin-bottom: 10px;
-                font-size: 18px;
-                font-weight: 400 !important;
-                line-height: 32px;
-                
-                @media (max-width: 767px) {
-                    font-size: 18px;
-                    line-height: 25px;
-                }
-                @media (max-width: 575px) {
-                    margin-bottom: 30px;
-                    font-size: 16px;
-                    line-height: 25px;
-                }
-            }
-
-            .lg-get-started {
-                margin-right: 8px;
-                margin-top: 60px;
-                font-size: 17px;
-                line-height: 24px;
-                
-                @media (max-width: 767px) {
-                    margin-top: 40px;
-                }
-                @media (max-width: 575px) {
-                    font-size: 15px;
-                }
-
-                a {
-                    color: #2467e3;
-                    font-weight: 400;
-                }
-            }
-        }
-        .col-lg-5 {
-            img {
-                border-radius: 20px;
-                max-height: 610px;
-            }
-        }
-        .inner-col-12-sm {
-            width: 100%;
-            height: 610px;
-            background-color: #f0f8e5;
-            border-radius: 20px;
-            padding-top: 60px;
-            padding-left: 50px;
-            padding-right: 50px;
-            position: relative;
-
-            .img-cont {
-                width: 350px;
-                position: absolute;
-                bottom: 0;
-                right: 0;
-                justify-content: center;
-            }
-
-            
-            @media (max-width: 991px) {
-                height: 850px;
-            }
-            @media (max-width: 767px) {
-                padding-left: 30px;
-                height: 770px;
-            }
-            
-
-            .sm-header {
-                color: #8617cf;
-                letter-spacing: .1em;
-                text-transform: uppercase;
-                font-size: 13px;
-                font-weight: 400 !important;
-                line-height: 24px;
-                
-                @media (max-width: 575px) {
-                    font-size: 10px;
-                    letter-spacing: .1rem;
-                }
-            }
-            
-            .lg-header {
-                color: #000;
-                letter-spacing: -.04em;
-                margin-top: 10px;
-                margin-bottom: 20px;
-                font-size: 50px;
-                line-height: 1.1;
-                font-weight: bold;
-                
-                @media (max-width: 767px) {
-                    font-size: 40px;
-                    margin-bottom: 10px;
-                }
-                @media (max-width: 575px) {
-                    font-size: 31px;
-                }
-            }
-
-            .lg-texts {
-                color: #413f3f;
-                letter-spacing: -.02em;
-                margin-bottom: 10px;
-                font-size: 18px;
-                font-weight: 400 !important;
-                line-height: 32px;
-                
-                @media (max-width: 767px) {
-                    font-size: 18px;
-                    line-height: 25px;
-                }
-                @media (max-width: 575px) {
-                    margin-bottom: 30px;
-                    font-size: 16px;
-                    line-height: 25px;
-                }
-            }
-
-            .lg-get-started {
-                margin-right: 8px;
-                margin-top: 60px;
-                font-size: 17px;
-                line-height: 24px;
-                
-                @media (max-width: 767px) {
-                    margin-top: 40px;
-                }
-                @media (max-width: 575px) {
-                    font-size: 15px;
-                }
-
-                a {
-                    color: #2467e3;
-                    font-weight: 400;
                 }
             }
         }
@@ -854,12 +527,20 @@ header {
             a {
                 border: .1rem solid #dee2e6;
                 padding: 20px 0;
+                text-decoration: none;
                 button {
+                    // display: flex;
                     font-size: 16px;
                     font-weight: 600 !important;
                     letter-spacing: 1px;
+                    @media (max-width: 400px) {
+                        font-size: 14px;
+                    }
                     span {
                         font-size: 20px;
+                        @media (max-width: 400px) {
+                            font-size: 16px;
+                        }
                     }
                 }
             }
@@ -875,7 +556,22 @@ header {
 
 
     .copyright-and-powered-container {
+        display: flex;
         padding: 20px 0;
         font-size: 13px;
+            @media (max-width: 400px) {
+                display: block;
+            }
+
+        .powered-by {
+            display: flex;
+            align-items: center;
+            img {
+                width: 30px;
+            }
+            @media (max-width: 400px) {
+                margin-top: 10px;
+            }
+        }
     }
 }
