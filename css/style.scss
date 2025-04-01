@@ -340,7 +340,12 @@ header {
             aspect-ratio: 1/1;
             border-radius: 50%;
             max-width: 400px;
-            @media (max-width: 450px) {
+            @media (max-width: 991px) {
+                height: 300px;
+                width: 300px;
+                aspect-ratio: 1/1;
+            }
+            @media (max-width: 575px) {
                 height: 200px;
                 width: 200px;
                 aspect-ratio: 1/1;
@@ -501,10 +506,13 @@ header {
                 height: 150px;
                 // padding: 0;
                 overflow: hidden;
-                @media (max-width: 450px) {
-                    height: 120px;
+                @media (max-width: 575px) {
+                    height: 300px;
                     width: 100%;
-                    aspect-ratio: 1/1;
+                }
+                @media (max-width: 450px) {
+                    height: 200px;
+                    width: 100%;
                 }
                 li {
                     width: 100%;

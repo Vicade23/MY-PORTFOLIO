@@ -350,7 +350,15 @@ header ul .dropdown-toggle1 {
   max-width: 400px;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 991px) {
+  .hero .hero-text-container img {
+    height: 300px;
+    width: 300px;
+    aspect-ratio: 1/1;
+  }
+}
+
+@media (max-width: 575px) {
   .hero .hero-text-container img {
     height: 200px;
     width: 200px;
@@ -551,11 +559,17 @@ header ul .dropdown-toggle1 {
   overflow: hidden;
 }
 
+@media (max-width: 575px) {
+  .premium .row .card .card-header {
+    height: 300px;
+    width: 100%;
+  }
+}
+
 @media (max-width: 450px) {
   .premium .row .card .card-header {
-    height: 120px;
+    height: 200px;
     width: 100%;
-    aspect-ratio: 1/1;
   }
 }
 
