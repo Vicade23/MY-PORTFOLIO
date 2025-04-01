@@ -273,19 +273,16 @@ header {
         // justify-content: end;
         // text-align: end;
 
-        .dropdown-toggle1 {
+        .dropdown-toggle {
             position: relative;
             @media (min-width: 992px) {
-                left: 600%;
+                left: 450%;
             }
             @media (min-width: 1140px) {
-                left: 600%;
+                left: 450%;
             }
             @media (min-width: 1201px) {
-                left: 730%;
-            }
-            @media (min-width: 1399px) {
-                left: 850%;
+                left: 550%;
             }
         }
     }
@@ -296,14 +293,10 @@ header {
     background-image: url("data:image/svg+xml,%3Csvg width='76' height='18' viewBox='0 0 76 18' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M32 18c-2.43-1.824-4-4.73-4-8 0-4.418-3.582-8-8-8H0V0h20c5.523 0 10 4.477 10 10 0 4.418 3.582 8 8 8h20c4.418 0 8-3.582 8-8 0-5.523 4.477-10 10-10v2c-4.418 0-8 3.582-8 8 0 3.27-1.57 6.176-4 8H32zM64 0c-1.67 1.256-3.748 2-6 2H38c-2.252 0-4.33-.744-6-2h32z' fill='%239C92AC' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E");
     position: relative;
     background-position: center;
-    // height: 95vh;
+    height: 70vh;
 
     @media (max-width: 767px) {
-        // height: 70vh;
-    }
-
-    .row {
-        padding: 60px 0;
+        height: 70vh;
     }
 
     .img-container {
@@ -320,36 +313,17 @@ header {
         height: 100%;
         position: relative;
         display: flex;
-        // flex-direction: column;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         z-index: 1;
         @media (max-width: 991px) {
-            // justify-content: center;
-        }
-
-        .col-lg-5 {
-            @media (max-width: 991px) {
-                margin-top: 40px;
-            }
-        }
-
-        img {
-            width: 100%;
-            height: 100%;
-            aspect-ratio: 1/1;
-            border-radius: 50%;
-            max-width: 400px;
-            @media (max-width: 450px) {
-                height: 200px;
-                width: 200px;
-                aspect-ratio: 1/1;
-            }
+            justify-content: center;
         }
 
         .text-heading {
             color: #fff;
-            font-size: 80px;
+            font-size: 78px;
             line-height: 80px;
             font-weight: 600;
             margin-bottom: 20px;
@@ -488,27 +462,19 @@ header {
         }
     }
 
-
     .row {
         margin-top: 80px;
         .card {
             border-radius: 12px;
             border: 1px solid rgb(232, 232, 232);
             .card-header {
-                // margin-top: 20px;
+                margin-top: 20px;
                 justify-content: center;
                 display: flex;
-                height: 150px;
-                // padding: 0;
-                overflow: hidden;
-                @media (max-width: 450px) {
-                    height: 120px;
-                    width: 100%;
-                    aspect-ratio: 1/1;
-                }
                 li {
-                    width: 100%;
-                    height: 100%;
+                    aspect-ratio: 1/1;
+                    width: 50px;
+                    height: 50px;
                     font-size: 20px;
                     // padding: 22px;
                     list-style: none;
@@ -519,11 +485,7 @@ header {
                     color: #ffffff;
                     img {
                         width: 100%;
-                        height: 100%;
-                        
                     }
-                }
-                li {
                 }
             }
             .card-body {
